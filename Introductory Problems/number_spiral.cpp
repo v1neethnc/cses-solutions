@@ -19,15 +19,15 @@ int main() {
 		cin >> c;
 		if(r>c) {
 			if(r%2==0)
-				res = pow(r, 2) - (c-1); 
+				res = r*r - (c-1); 
 			else
-				res = pow(r-1, 2) + c;
+				res = (r-1)*(r-1) + c;
 		}
 		else {
 			if(c%2==0)
-				res = pow(c-1, 2) + r;
+				res = (c-1)*(c-1) + r;
 			else
-				res = pow(c, 2) - (r-1);
+				res = (c*c) - (r-1);
 		}
 		cout << res << '\n';
 	}
