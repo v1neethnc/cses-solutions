@@ -1,5 +1,5 @@
 /*
-CSES Problem Set Solutions: Bit String
+CSES Problem Set Solutions: Bit Strings
 https://cses.fi/problemset/task/1617
 https://github.com/v1neethnc/cses-solutions
 */
